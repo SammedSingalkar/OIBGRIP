@@ -1,0 +1,116 @@
+*{
+    margin: 1vh;
+    padding: 0;
+}
+nav{  
+/* background-color:white; */
+padding:2vh;
+display:inline-block;
+box-shadow: 1vh;
+position: sticky;
+}
+
+nav a{
+    color: black;
+padding: 1vh;
+margin: 1vh;
+font-size: larger;
+/* opacity: 60%; */
+}
+
+  .details:hover{
+    background-color:lightblue;
+    border-radius: 2vh;
+}
+.details:active{
+    background-color: blue;
+}
+
+.portfolio{
+    color: black;
+    font-size:xx-large;
+    font-weight: 800;
+    display: inline-block;
+}
+
+.name{
+    display: inline-block;
+    margin-left: 60vh;
+    font-size:x-large;
+    font-weight: 550;
+    /* justify-items: baseline; */
+}
+
+.icon{
+    /* display:inline-block; */
+    width: 48px;
+    height: 48px;
+    max-width: 48px;
+    max-height: 48px;
+    border-radius: 50%;
+}
+
+.info{
+    /* background-color: white; */
+    margin-top: 2vh;
+}
+
+.mydetails{
+    margin: 3vh;
+    padding: 2vh;
+}
+
+.info nav a:hover{
+    background-color:whitesmoke;
+    border-radius: 5px;
+}
+
+.info nav a:active{
+    background-color: aqua;
+    border: 2px solid blue;
+    border-radius: 4px;
+}
+
+.container{
+    /* position:relative; */
+    display: inline-block;
+    margin-left: 12vh;
+    padding-left: 10vh;
+}
+
+
+.basic_info{
+    display: inline-table;
+    width: 400px;
+    height: 450px;
+    /* background-color:whitesmoke; */
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 10px 10px rgba(10, 12, 51, 0.625);
+    color:rgb(212, 222, 18);
+
+}
+
+.form-group{
+    display: inline-table;
+    width: 250px;
+}
+
+.logo{
+    display: inline-table;
+    width: 48px;
+    height: 48px;
+    max-width: 48px;
+    max-height: 48px;
+    border-radius: 50%;
+}
+
+.contact{
+    width: 400px;
+    height: 130px;
+    background-color:whitesmoke;
+    border: 2px solid black;
+    border-radius: 5px;
+    /* text-align: center; */
+}

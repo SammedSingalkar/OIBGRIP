@@ -1,0 +1,12 @@
+
+.education{
+    width:500px;
+    height:250px;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgb(7, 27, 3);
+    text-align: center;
+}
+
+.education label{
+    font-size: larger;
+}
